@@ -32,4 +32,4 @@ async def on_message(message):
     elif message.channel.send("!Lucas"):
         await message.channel.send("Inteligentissímo, mas quando ele começa a falar tu acaba dormindos")
 
-client.run("ODA2NzAwMjM2ODMxMzI2MjA4.YBtQJA.-DQKBSbsSRzhQWggczMhZzGG0gs")
+client.run(os.getenv("TOKEN"))
